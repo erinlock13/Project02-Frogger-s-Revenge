@@ -6,6 +6,8 @@ TagManager:
   tags:
   - player
   - FrogBorder
+  - bullet
+  - enemy
   layers:
   - Default
   - TransparentFX
