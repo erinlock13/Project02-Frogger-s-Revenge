@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8022546975352940609}
   - component: {fileID: 1468132445969587770}
   m_Layer: 7
-  m_Name: Car_2
+  m_Name: Car_4
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2ffdb23f7cb7244e497858705f580879, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 28bc3af7505fe485aa06f722cc953aa5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -193,4 +193,4 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 3c77f72ec771a4a90819e96eff10dfa4, type: 2}
+    - {fileID: 11400000, guid: bc532b0d9925043788097dc7380e285e, type: 2}

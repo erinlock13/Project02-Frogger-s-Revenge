@@ -215,6 +215,78 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &826515203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 826515206}
+  - component: {fileID: 826515205}
+  - component: {fileID: 826515204}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &826515204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826515203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: cb273ae69dedd4fb2a35286cc86c405d, type: 2}
+--- !u!114 &826515205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826515203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Car1","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Car2","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Car3","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Car4","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 5835300225666217375, guid: 8ac87d38de45f41918993d868df79cce, type: 3}
+    - {fileID: 5835300225666217375, guid: 73c30212f24744af6a28906f968b4e5f, type: 3}
+    - {fileID: 5835300225666217375, guid: 71c0543242cac47a5b0f34d67463f2e8, type: 3}
+    - {fileID: 5835300225666217375, guid: 814941ee1ba5a4dc391a558df35dd5d2, type: 3}
+--- !u!4 &826515206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826515203}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.5054584, y: 1.2093145, z: 0.95797956}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &839884336
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,9 +544,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"bullet","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"bee","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ps","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 7055041998894887979, guid: 805a4426d53254ea1a2d635a8050ab0d, type: 3}
+    - {fileID: 7055041998894887979, guid: 5d28a9e0bdef2496bad1b00e9dca2d49, type: 3}
+    - {fileID: 7055041998894887979, guid: 9556e76bc561b48a7a8e3e6385f8bbe8, type: 3}
 --- !u!1 &1122974128
 GameObject:
   m_ObjectHideFlags: 0
@@ -523,11 +599,15 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ExplosionPrefab","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Gun_Type","value":{"$content":"gun","$type":"System.String"},"typeHandle":{"Identification":"System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Man","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Woman","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"NB","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 839884336}
     - {fileID: 7722508437125892843, guid: 187d4be7d48ec4cc6b11517929127684, type: 3}
     - {fileID: 5835300225666217375, guid: 8e191c7c70cd7431a9e70989a358a75d, type: 3}
+    - {fileID: 5835300225666217375, guid: 58d2e669f3ae844ef99b5e26b5985d09, type: 3}
+    - {fileID: 5835300225666217375, guid: 78e2548b0eb4c4bf5901aa131294d7eb, type: 3}
 --- !u!4 &1122974131
 Transform:
   m_ObjectHideFlags: 0
@@ -627,63 +707,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!1001 &1755360164
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2657028673702261835, guid: 8ac87d38de45f41918993d868df79cce, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4.59655
-      objectReference: {fileID: 0}
-    - target: {fileID: 2657028673702261835, guid: 8ac87d38de45f41918993d868df79cce, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.9303827
-      objectReference: {fileID: 0}
-    - target: {fileID: 2657028673702261835, guid: 8ac87d38de45f41918993d868df79cce, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2657028673702261835, guid: 8ac87d38de45f41918993d868df79cce, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2657028673702261835, guid: 8ac87d38de45f41918993d868df79cce, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2657028673702261835, guid: 8ac87d38de45f41918993d868df79cce, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2657028673702261835, guid: 8ac87d38de45f41918993d868df79cce, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2657028673702261835, guid: 8ac87d38de45f41918993d868df79cce, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2657028673702261835, guid: 8ac87d38de45f41918993d868df79cce, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2657028673702261835, guid: 8ac87d38de45f41918993d868df79cce, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5835300225666217375, guid: 8ac87d38de45f41918993d868df79cce, type: 3}
-      propertyPath: m_Name
-      value: Car_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8ac87d38de45f41918993d868df79cce, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -692,4 +715,4 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 1122974131}
   - {fileID: 1201091617}
-  - {fileID: 1755360164}
+  - {fileID: 826515206}

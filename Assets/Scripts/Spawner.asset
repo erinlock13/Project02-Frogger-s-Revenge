@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Spawner
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":143.7497,"y":73.50021},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-292.0,"y":-86.0},"guid":"bc049301-0f40-4d90-b161-d15ff000a4bc","$version":"A","$type":"Unity.VisualScripting.Update","$id":"9"},{"defaultValues":{"duration":{"$content":5.0,"$type":"System.Single"},"unscaledTime":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-67.0,"y":-142.0},"guid":"81484735-3b05-475e-bc8a-67c840e1148e","$version":"A","$type":"Unity.VisualScripting.Cooldown","$id":"11"},{"chainable":false,"parameterNames":["original","position","rotation"],"member":{"name":"Instantiate","parameterTypes":["UnityEngine.Object","UnityEngine.Vector3","UnityEngine.Quaternion"],"targetType":"UnityEngine.Component","targetTypeName":"UnityEngine.Component","$version":"A"},"defaultValues":{"%original":null,"%position":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":251.0,"y":8.0},"guid":"020e3896-b86b-4130-8c82-9023bb5794b2","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"561da58a-20e5-4ae7-8c81-c4b43fae6830","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"exitReady","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"c53288ba-b0f8-4d51-8c6f-ad18e39ff45d","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
